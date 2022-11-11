@@ -273,7 +273,7 @@ a.mainBtn {
     .swiper-slide {
       background: transparent;
       justify-content: #{$start-direction};
-      margin-#{$start-direction}: 140px;
+      margin-#{$start-direction}: 0px;
     }
     .swiperHomeControl {
       .swiper-button-prev::after,
@@ -291,26 +291,49 @@ a.mainBtn {
       text-align: #{$start-direction};
       margin-bottom: 150px;
       width: 670px;
+      margin-#{$start-direction}: 140px;
       h2 {
         font-size: 45px;
         line-height: 1.5;
         color: #fff;
         margin: 0;
+        opacity: 0;
+        transform: translateY(30px);
+        transition-delay: .1s;
+        transition: 1s;
       }
       p {
         font-size: 24px;
         line-height: 1.8;
         color: #fff;
         margin: 18px 0 27px;
+        opacity: 0;
+        transform: translateY(50px);
+        transition-delay: .5s;
+        transition: 1s;
       }
       .mainBtn {
         border: 2px solid #fff;
         background: transparent;
         padding: 6px 25px 11px 25px;
+        opacity: 0;
+        transform: translateX(70px);
+        transition-delay: .8s;
+        transition: 1s;
+        display: inline-flex;
       }
     }
   }
-
+  .swiper-slide-active {
+   .boxHomeSlide {
+    h2 ,
+    p,
+    .mainBtn {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+   }
+  }
   .bg-video-wrap {
     position: absolute;
     overflow: hidden;

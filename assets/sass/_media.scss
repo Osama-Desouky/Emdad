@@ -69,7 +69,7 @@
   .homeHeader .homeSwiper {
     margin-top: 150px;
   }
-  .homeHeader .homeSwiper .swiper-slide {
+  .homeHeader .homeSwiper .swiper-slide .boxHomeSlide{
     margin-#{$end-direction}: 0;
   }
   .homeHeader .homeSwiper {
@@ -218,7 +218,7 @@
   }
 }
 @media (max-width: 500px) {
-  .homeHeader .homeSwiper .swiper-slide {
+  .homeHeader .homeSwiper .swiper-slide .boxHomeSlide{
     margin-#{$start-direction}: 0px;
   }
   .homeHeader .homeSwiper .swiper-slide * {
