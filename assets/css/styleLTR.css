@@ -1739,6 +1739,261 @@ h2.main-h2 {
           justify-content: center;
 }
 
+.main-btn:hover {
+  color: #fff;
+}
+
+.inner-top-section .content-box {
+  padding-top: 100px;
+  max-width: 692px;
+}
+
+.inner-top-section .content-box p {
+  font-size: 1.375rem;
+  line-height: 40px;
+}
+
+.innerServices {
+  padding-top: 50px;
+  padding-bottom: 225px;
+}
+
+.innerServices .containerFlip .front {
+  background-color: #F5F5FA;
+}
+
+.innerServices .containerFlip .front .font25 {
+  color: #080031;
+}
+
+.innerServices .containerFlip .back .titleBorder {
+  font-size: 25px;
+}
+
+.innerServices .containerFlip .goHover {
+  bottom: 80px;
+  opacity: 0;
+}
+
+.innerServices .containerFlip.b_round_hover .goHover {
+  bottom: 28px;
+  opacity: 1;
+}
+
+h4.sub-hd {
+  font-size: 2.1875rem;
+  font-family: 'DIMedium';
+  margin-bottom: 28px;
+  padding-left: 14px;
+  position: relative;
+  color: #080031;
+}
+
+h4.sub-hd::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 28px;
+  left: 0;
+  top: 12px;
+  border-radius: 8px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#080031), to(#80057c));
+  background: linear-gradient(#080031 0%, #80057c 100%);
+}
+
+.inner-serv-card {
+  padding-top: 70px;
+  padding-bottom: 100px;
+  padding-left: 40px;
+  padding-right: 45px;
+  background-repeat: no-repeat;
+  background-position: top right;
+  position: relative;
+}
+
+.inner-serv-card .number {
+  font-size: 62px;
+  font-family: 'DIBold';
+  border: 2px solid;
+  position: absolute;
+  top: -50px;
+  left: 40px;
+  padding: 5px 10px;
+  width: 92px;
+  height: 92px;
+  line-height: 70px;
+}
+
+.inner-serv-card h4 {
+  font-size: 2.1875rem;
+  font-family: 'DIMedium';
+  margin-bottom: 28px;
+}
+
+.inner-serv-card p {
+  font-size: 1.375rem;
+  margin-bottom: 0;
+  max-width: 1290px;
+}
+
+.inner-serv-card .inner-cards-one {
+  margin-top: 51px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.inner-serv-card .inner-cards-one .inner-card {
+  background-color: #0D0D47;
+  color: #fff;
+  position: relative;
+  font-size: 1.375rem;
+  text-align: center;
+  padding: 11px;
+  height: 168px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: calc(100% / 8 - 7px);
+  margin-right: 8px;
+}
+
+.inner-serv-card .inner-cards-one .inner-card:last-child {
+  margin-right: 0px;
+}
+
+.inner-serv-card .inner-cards-one .inner-card a {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  width: 24px;
+  height: 26px;
+}
+
+.inner-serv-card .inner-cards-one .inner-card::before {
+  content: "";
+  position: absolute;
+  right: -2px;
+  bottom: -2px;
+  width: 65px;
+  height: 58px;
+  background-image: url(../images/services/poly-vio.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.inner-serv-card .inner-cards-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 92px;
+}
+
+.inner-serv-card .inner-cards-two .inner-card {
+  background-color: #fff;
+  max-width: 713px;
+  height: 375px;
+  padding: 60px 30px;
+}
+
+.inner-serv-card .inner-cards-two .inner-card .sub-hd {
+  color: #80057C;
+}
+
+.inner-serv-card .inner-cards-two .inner-card p {
+  color: #2D2651;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 75%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inner-serv-card.card-1 {
+  background-color: #80057C;
+  background-image: url(../images/services/patt-1.svg);
+  margin-bottom: 130px;
+  margin-top: 130px;
+}
+
+.inner-serv-card.card-1 .number {
+  color: #A827A4;
+  border-color: #A74CA4;
+}
+
+.inner-serv-card.card-1 h4 {
+  color: #fff;
+}
+
+.inner-serv-card.card-1 p {
+  color: #fff;
+}
+
+.inner-serv-card.card-1 .sub-hd {
+  color: #fff;
+  margin-top: 51px;
+}
+
+.inner-serv-card.card-1 .sub-hd::before {
+  background: #fff;
+}
+
+.inner-serv-card.card-2 {
+  background-color: #EBF2FA;
+  background-image: url(../images/services/patt-2.svg);
+  margin-bottom: 60px;
+}
+
+.inner-serv-card.card-2 .number {
+  color: #080031;
+  border-color: #80057C;
+}
+
+.inner-serv-card.card-2 h4 {
+  color: #80057C;
+}
+
+.inner-serv-card.card-2 p {
+  color: #2D2651;
+}
+
+.inner-serv-card.card-2 .sub-hd::before {
+  background: -webkit-gradient(linear, left top, left bottom, from(#080031), to(#80057c));
+  background: linear-gradient(#080031 0%, #80057c 100%);
+}
+
+.content-in-space {
+  margin-bottom: 150px;
+}
+
+.font22 {
+  font-size: 1.375rem;
+}
+
 img {
   max-width: 100%;
 }
@@ -1746,6 +2001,13 @@ img {
 /**********************************************
             meeeeeeeeeeeeeeeeeedia
   ************************************************/
+@media (max-width: 1650px) {
+  .inner-serv-card .inner-cards-two .inner-card {
+    max-width: 500px;
+    height: 400px;
+  }
+}
+
 @media (max-width: 1400px) {
   .about-main {
     margin-bottom: 119px;
@@ -1767,10 +2029,17 @@ img {
 }
 
 @media (max-width: 1199.98px) {
+  .about-main .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
   .about-main .img-box {
     max-width: 650px;
     margin: 0 auto;
     margin-top: 30px;
+    margin-bottom: 30px;
   }
   .msg-vision {
     -webkit-box-orient: vertical;
@@ -1786,6 +2055,33 @@ img {
   }
   .goals .goal-card:hover .content-box::before {
     width: 135%;
+  }
+  .inner-top-section .content-box {
+    max-width: inherit;
+    padding-top: 30px;
+  }
+  .inner-top-section .img-box {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .inner-serv-card .inner-cards-one {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .inner-serv-card .inner-cards-one .inner-card {
+    width: calc(100% / 4 - 7px);
+    margin-left: 7px;
+    margin-bottom: 30px;
+  }
+  .inner-serv-card .inner-cards-two {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .inner-serv-card .inner-cards-two .inner-card {
+    max-width: inherit;
+    margin-bottom: 30px;
   }
 }
 
@@ -1804,6 +2100,15 @@ img {
   }
   .msg-vision {
     padding: 20px 0;
+  }
+  .inner-top-section .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .inner-serv-card .inner-cards-one .inner-card {
+    font-size: 1.125rem;
   }
 }
 
@@ -1824,6 +2129,39 @@ img {
   .Values .values-card .title h4 {
     font-size: 1.5rem;
   }
+  h2.main-h2 {
+    font-size: 2rem;
+  }
+  .inner-top-section .content-box p {
+    font-size: 1.25rem;
+    line-height: 30px;
+  }
+  .inner-serv-card .inner-cards-two .inner-card {
+    min-height: 300px;
+    height: auto;
+  }
+  .inner-serv-card .inner-cards-one .inner-card {
+    width: calc(100% / 2 - 7px);
+    margin-left: 7px;
+    font-size: 1rem;
+  }
+  .inner-serv-card h4 {
+    font-size: 1.5rem;
+  }
+  h4.sub-hd::before {
+    top: 4px;
+  }
+  h4.sub-hd {
+    font-size: 1.5rem;
+  }
+  .font22 {
+    font-size: 1.125rem;
+    line-height: 25px;
+  }
+  .font22 .inner-serv-card p {
+    font-size: 1.125rem;
+    line-height: 25px;
+  }
 }
 
 @media (max-width: 574.98px) {
@@ -1832,6 +2170,9 @@ img {
   }
   .msg-vision .vision .content-box p, .msg-vision .msg .content-box p {
     font-size: 1.25rem;
+  }
+  .inner-serv-card {
+    background-size: 70px;
   }
 }
 
