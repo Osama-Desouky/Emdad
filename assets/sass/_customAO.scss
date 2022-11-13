@@ -442,6 +442,9 @@ a.mainBtn {
     transform: rotateY(180deg);
     .p20 {
       padding-top: 45px;
+      line-height: 36px;
+      max-height: calc(38px * 5);
+      overflow: hidden;
     }
     .redMore {
       font-size: 18px;
@@ -623,6 +626,9 @@ a.mainBtn {
     padding-top: 15px;
     padding-bottom: 60px;
     .boxPart {
+      border: 2px solid #FAFAFF;
+      border-radius: 8px;
+      padding: 24px 49px;
       img {
         max-height: 150px;
       }

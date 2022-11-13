@@ -1,0 +1,16 @@
+<svg id="timer_outline" data-name="timer/outline" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#080031"/>
+      <stop offset="1" stop-color="#80057c"/>
+    </linearGradient>
+  </defs>
+  <g id="vuesax_outline_timer" data-name="vuesax/outline/timer">
+    <g id="timer">
+      <path id="Vector" d="M11.875,23.75A11.875,11.875,0,1,1,23.75,11.875,11.886,11.886,0,0,1,11.875,23.75Zm0-21.875a10,10,0,1,0,10,10A10.013,10.013,0,0,0,11.875,1.875Z" transform="translate(3.125 4.688)" fill="url(#linear-gradient)"/>
+      <path id="Vector-2" data-name="Vector" d="M.938,8.125A.944.944,0,0,1,0,7.188V.938A.944.944,0,0,1,.938,0a.944.944,0,0,1,.938.938v6.25A.944.944,0,0,1,.938,8.125Z" transform="translate(14.063 9.063)" fill="url(#linear-gradient)"/>
+      <path id="Vector-3" data-name="Vector" d="M8.438,1.875H.938A.944.944,0,0,1,0,.938.944.944,0,0,1,.938,0h7.5a.944.944,0,0,1,.938.938A.944.944,0,0,1,8.438,1.875Z" transform="translate(10.313 1.563)" fill="url(#linear-gradient)"/>
+      <path id="Vector-4" data-name="Vector" d="M0,0H30V30H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

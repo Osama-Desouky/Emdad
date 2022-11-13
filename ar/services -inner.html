@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="../assets/css/all.min.css" />
     <!--  swiper CSS -->
     <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css" />
+       <!--  aos CSS -->
+       <link rel="stylesheet" href="../assets/css/aos.css" />
     <!-- custom style -->
     <link rel="stylesheet" href="../assets/css/styleRTL.css" />
 
@@ -23,64 +25,69 @@
 
     <header class="menuCustom inner-header">
       <nav
-        class="navbar navbar-expand-lg navbar-light top-navbar"
-        data-toggle="sticky-onscroll"
-      >
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="../assets/images/home/Emlogos.png" alt="">
-            <img src="../assets/images/home/Emdad_logo_Source.svg" alt="">
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+      class="navbar navbar-expand-lg navbar-light top-navbar"
+      data-toggle="sticky-onscroll"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="../assets/images/home/Emlogos.png" alt="">
+          <img src="../assets/images/home/Emdad_logo_Source.svg" alt="">
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div
-            class="collapse navbar-collapse justify-content-left"
-            id="navbarSupportedContent"
-          >
-            <ul class="navbar-nav pull-right">
+        <div
+          class="collapse navbar-collapse justify-content-left"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav pull-right">
+            <li class="nav-item">
+              <a class="nav-link " href="index.html">الرئيسية</a>
+            </li>
+            <!-- <li class="nav-item dropdown dropdownCustom">
+              <a class="nav-link dropdown-toggle" href="javascript:;" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                من نحن
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">من نحن</a></li>
+                <li><a class="dropdown-item" href="#partners">شركاؤنا </a></li>
+                <li><a class="dropdown-item" href="#">رؤية 2030</a></li>
+                <li><a class="dropdown-item" href="#">قصص نجاح </a></li>
+                <li><a class="dropdown-item" href="#">الاستثمار في رأس المال البشري</a></li>
+                <li><a class="dropdown-item" href="#">الجوائز والشهادات </a></li>
+              </ul>
+              </li> -->
               <li class="nav-item">
-                <a class="nav-link active" href="#">الرئيسية</a>
-              </li>
-              <li class="nav-item dropdown dropdownCustom">
-                <a class="nav-link dropdown-toggle" href="javascript:;" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link" href="about-us.html">
                   من نحن
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">من نحن</a></li>
-                  <li><a class="dropdown-item" href="#partners">شركاؤنا </a></li>
-                  <li><a class="dropdown-item" href="#">رؤية 2030</a></li>
-                  <li><a class="dropdown-item" href="#">قصص نجاح </a></li>
-                  <li><a class="dropdown-item" href="#">الاستثمار في رأس المال البشري</a></li>
-                  <li><a class="dropdown-item" href="#">الجوائز والشهادات </a></li>
-                </ul>
-                </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">خدماتنا</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://careers.ek.com.sa" target="_blank">فرص العمل </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">الاخبار و الاحداث</a>
-              </li>
-            </ul>
-            <div class="contactBtn">
-              <a class="nav-link ENClass" href="#">EN</a>
-              <a class="btnWhit" href="#">تواصل معنا</a>
-            </div>
+            <li class="nav-item">
+              <a class="nav-link active" href="services.html">خدماتنا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://careers.ek.com.sa" target="_blank">فرص العمل </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="under-cost.html">الاخبار و الاحداث</a>
+            </li>
+          </ul>
+          <div class="contactBtn">
+            <a class="nav-link ENClass" href="under-cost.html">EN</a>
+            <a class="btnWhit" href="contact-us.html">تواصل معنا</a>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
     </header>
 
 
@@ -101,9 +108,11 @@
           <div class="row">
               <div class="col-md-12">
                   <ul class="breadcrumb">
-                      <li><a href="#">الرئيسية</a></li>
-                      <!-- <li><a href="#"></a></li> -->
-                      <li>من نحن</li>
+                      <li><a href="index.html">الرئيسية</a></li>
+                      <!-- <li><a href="services.html">
+                        خدماتنا
+                      </a></li> -->
+                      <li>خدماتنا</li>
                   </ul>
               </div>
               <!-- end breadcrumb -->
@@ -127,20 +136,25 @@
       <section class="inner-top-section">
         <div class="container">
           <div class="row">
-            <div class="col-lg-7">
+            <div class="col-lg-7"  data-aos="fade-left">
               <div class="content-box">
                 <p>
-                  يشكل توفير الكوادر البشرية الملائمة والمؤهلة والمتخصصة تحديًا لقدرة المنشآت الحكومية والخاصة على تحقيق أهدافها والوصول للنتائج المطلوبة سواءً للوظائف بدوام كامل أو بدوام جزئي، لذلك حرصنا في «إمداد الخبرات » على تطوير حلولنا وخدماتنا لرأس المال البشري بطريقة أكثر شمولية لتتناسب مع احتياجات شركائنا 
-                  :وعملائنا في مختلف القطاعات، ومن أهمها
+               
+                  يشـــكل توفيـــر الكـــوادر البشـــرية الملائمـــة والمؤهلـــة والمتخصصـــة تحديـــاً لقـــدرة
+                  المنشـــآت الحكوميـــة والخاصـــة علـــى تحقيق أهدافهـــا والوصـــول للنتائـــج المطلوبة
+                   ســـواءً للوظائف بـــدوام كامل أو بدوام جزئي والعقود الاستشـــارية مع المستشـــارين
+                  بنطـــاق محدد، لذلك حرصنـــا في »إمـــداد الخبرات« علـــى تطوير حلولنـــا وخدماتنا لرأس
+                  المال البشـــري بطريقة أكثر شـــمولية لتتناســـب مـــع احتياجات شـــركائنا وعملائنا في
+                  مختلـــف القطاعات
                 </p>
                
 
               
               </div>
             </div>
-            <div class="col-lg-5">
+            <div class="col-lg-5"  data-aos="fade-right">
               <div class="img-box">
-                <img src="../assets/images/services/img-inner.jpg" alt="">
+                <img src="../assets/images/services/img1.jpg" alt="">
               </div>
             </div>
           </div>
@@ -149,27 +163,37 @@
 
 
       <div class="container">
-        <div class="inner-serv-card card-1">
+        <div class="inner-serv-card card-1"  data-aos="fade-up">
           <div class="row">
             <div class="col-12">
               <div class="number">
                 01
               </div>
               <h4>
-                تعهيد التوظيف الخارجي
+                تعهيد القوى العاملة:
               </h4>
               <p>
-                تعتبر خدمة تعهيد التوظيف الشاملة أحد أميز الحلول التي نقدمها، حيث يمكن لشركائنا وعملائنا تحديد الوظائف والمؤهلات والخبرات المطلوبة لينطلق فريقنا بتنفيذ تلك المهام بشكل سلس ومتناغم وذو وصولية عالية لمعرفة المستجدات حول المرشحين ومستوى التقدّم في عملية التوظيف والمتابعة بعد ذلك، 
-                :وتتضمن هذه العمل بهذه الخدمة على التالي
+                تعتبـــر خدمة تعهيـــد التوظيف الشـــاملة أحـــد أميز الحلـــول التي نقدمهـــا، حيث يمكن
+                لشـــركائنا وعملائنا تحديد الوظائـــف والمؤهلات والخبـــرات المطلوبـــة لينطلق فريقنا
+                بتنفيذ تلك المهام بشـــكل ســـلس ومتناغم وذو وصولية عالية لمعرفة المســـتجدات
+                حول المرشـــحين ومســـتوى التقدّم في عمليـــة التوظيف والمتابعـــة بعد ذلك.
+              </p>
+              <br>
+              <br>
+              <p>
+                وتشـــتمل الخدمـــة علـــى إدارة جميع مراحـــل التعهيد ابتـــداءً من البحث والفـــرز الأولي
+                للمواهب المطابقة والمقابلات الشـــخصية، ثم مباشـــرة الموظفيـــن في مقر العميل
+                 وإدارة جميـــع الإجـــراءات الوظيفيـــة والحكوميـــة للموظـــف كإدارة الرواتـــب، وانتهـــاء
+                بمغـــادرة الموظف لجهـــة العمل.
               </p>
 
-              <h4 class="sub-hd">
+              <!-- <h4 class="sub-hd">
                 الدورة الكاملة للتعهيد الوظيفي الخارجي
               </h4>
               <p>
                 نقوم بإدارة دورة التوظيف كاملة منذ البداية حيث احتياج العميل لتوظيف كوادر جديد
-              </p>
-              <div class="inner-cards-one">
+              </p> -->
+              <!-- <div class="inner-cards-one">
                 <div class="inner-card">
                   البحث والفرز الأولي للمواهب المطابقة
                   <a href="#">
@@ -218,14 +242,14 @@
                     <img src="../assets/images/services/arr-white.svg" alt="">
                   </a>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
       </div>
 
       <div class="container">
-        <div class="inner-serv-card card-2">
+        <div class="inner-serv-card card-2"  data-aos="fade-up">
           <div class="row">
             <div class="col-12">
               <div class="number">
@@ -235,7 +259,7 @@
                 خدمات التوظيف
               </h4>
               <p>
-                :تتميز مجموعة واسعة من خدمات التوظيف المرنة والمخصصة، نقدم خدماتنا لكل عميل حسب احتياجاته ومتطلباته وفق مسارين رئيسيين وهما
+                تتميز مجموعة واسعة من خدمات التوظيف المرنة والمخصصة، نقدم خدماتنا لكل عميل حسب احتياجاته ومتطلباته وفق مسارين رئيسيين وهما:
               </p>
 
               <div class="inner-cards-two">
@@ -244,7 +268,9 @@
                       التوظيف التقليدي
                     </h4>
                     <p>
-                      .سيقوم فريقنا بفحص المرشحين وتنفيذ المقابلات الشخصية والترشيح النهائي بحسب الإجراءات الداخلية واشتراطات العميل
+                      ســـيقوم فريقنا بفحص المرشـــحين وتنفيذ المقابلات
+                      الشـــخصية والترشـــيح النهائـــي بحســـب الإجـــراءات
+                      الداخليـــة واشـــتراطات العميل.
                     </p>
                 </div>
                 <div class="inner-card">
@@ -252,7 +278,9 @@
                     البحث والاستقطاب التنفيذي
                   </h4>
                   <p>
-                    نحن ندرك أن إيجاد الكوادر الادارية العليا والتنفيذية بالطرق المعتادة لا يجدي في كثير من الأحيان، لذلك عمل فريقنا على تطوير عمليات مسح شاملة غير محددة جغرافيًا ومن خلال شبكة دولية فعالة تمكننا من الوصول إلى نخبة من الكوادر والكفاءات على مستوى العالم.
+                    نحـــن نـــدرك أن إيجاد الكـــوادر الادارية العليـــا والتنفيذيـــة بالطرق المعتـــادة ال يجدي فـــي كثير من
+                    الأحيـــان، لذلـــك عمل فريقنا على تطوير عمليات مســـح شـــاملة غيـــر محددة جغرافيـــاً ومن خلال
+                    شـــبكة دوليـــة فعالة تمكننا مـــن الوصول إلى نخبـــة من الكـــوادر والكفاءات على مســـتوى العالم.
                   </p>
               </div>
               </div>
@@ -261,7 +289,7 @@
         </div>
       </div>
 
-      <section class="content-in-space">
+      <!-- <section class="content-in-space">
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -280,15 +308,18 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       
     </div>
 
 
+
+
+    
     <!-- start sharing-tools -->
     <div class="container">
       <div class="row">
-        <div class="col-12">
+        <div class="col-12" data-aos="fade-up">
           <div class="sharing-tools">
             <div class="content-box">
               <img src="../assets/images/shared/share-icon.svg" alt="">
@@ -298,17 +329,17 @@
             </div>
             <ul class="social-a">
               <li>
-                <a href="#">
+                <a href="javascript:;">
                   <img src="../assets/images/shared/share-in.svg" alt="">
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="javascript:;">
                   <img src="../assets/images/shared/share-tw.svg" alt="">
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="javascript:;">
                   <img src="../assets/images/shared/share-fa.svg" alt="">
                 </a>
               </li>
@@ -320,111 +351,118 @@
     </div>
     <!-- end sharing-tools -->
 
-      <footer class="footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-lg-3">
-              <h6 class="headLink">عن امداد</h6>
-              <ul class="linksList">
-                <li>
-                  <a href="#!">من نحن</a>
-                </li>
-                <li>
-                  <a href="#!">المستفيدين</a>
-                </li>
-                <li>
-                  <a href="#!">رؤية 2030</a>
-                </li>
-              </ul>
-            </div>
-            <!-- end col -->
-            <div class="col-md-6 col-lg-3">
-              <h6 class="headLink">خدماتنا</h6>
-              <ul class="linksList">
-                <li>
-                  <a href="#!">حلول رأس المال البشري</a>
-                </li>
-                <li>
-                  <a href="#!">حلول رأس المال البشري الرقمية</a>
-                </li>
-                <li>
-                  <a href="#!">حلول الاستعانة بمصادر خارجية</a>
-                </li>
-                <li>
-                  <a href="#!">حلول الأعمال</a>
-                </li>
-              </ul>
-            </div>
-            <!-- end col -->
-            <div class="col-md-6 col-lg-3">
-              <h6 class="headLink">تابعنا على</h6>
-              <ul class="linksList Social">
-                <li>
-                  <a href="#!">
-                    <img src="../assets/images/home/insta.jpg" alt="">
-                  </a>
-                </li>
-                <li>
-                  <a href="#!">
-                    <img src="../assets/images/home/fb.jpg" alt="">
-                  </a>
-                </li>
-                <li>
-                  <a href="#!">
-                    <img src="../assets/images/home/twet.jpg" alt="">
-                  </a>
-                </li>
-
-              </ul>
-            </div>
-            <!-- end col -->
-            <div class="col-md-6 col-lg-3">
-              <h6 class="headLink">تواصل معنا</h6>
-              <ul class="linksList">
-                <li>
-                  <a href="#!" class="withLogo">
-                    <img src="../assets/images/home/location2.png" alt="">
-                    <span>شركة إمداد الخبرات المحدودة ,ا لرياض - حي النخيل</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="tel:966118169119" class="withLogo">
-                    <img src="../assets/images/home/call2.png" alt="">
-                    <span>966118169119+</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="mailto:career@ek.com.sa" class="withLogo">
-                    <img src="../assets/images/home/sms2.png" alt="">
-                    <span>Career@ek.com.sa</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <!-- end col -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3"  data-aos="fade-left">
+            <h6 class="headLink">عن امداد</h6>
+            <ul class="linksList">
+              <li>
+                <a href="about-us.html">من نحن</a>
+              </li>
+              <li>
+                <a href="under-cost.html">الاستثمار في رأس المال البشري</a>
+              </li>
+              <li>
+                <a href="under-cost.html">رؤية 2030</a>
+              </li>
+            </ul>
           </div>
-          <hr />
-          <div class="row">
-            <div class="col-md-6 text-right">
-              <p class="font16">جميع الحقوق محفوظة ©  2022</p>
-            </div>
-            <div class="col-md-6 text-left">
-              <div class="boxMapPolc">
-                <a href="#!" class="font16">سياسة الخصوصية</a> |
-                <a href="#!" class="font16">الشروط و الاحكام</a> |
-                <a href="#!" class="font16">خريطة الموقع</a> 
-              </div>
+          <!-- end col -->
+          <div class="col-md-6 col-lg-3"  data-aos="fade-up">
+            <h6 class="headLink">خدماتنا</h6>
+            <ul class="linksList">
+              <li>
+                <a href="services -inner.html">حلول رأس المال البشري</a>
+              </li>
+              <li>
+                <a href="services -inner-2.html">خدمات التوطين </a>
+              </li>
+              <li>
+                <a href="services -inner-3.html">
+                  الخدمات الاحترافية
+                </a>
+              </li>
+              <li>
+                <a href="services -inner-4.html">
+                  الحلول الرقمية لرأس المال البشري
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- end col -->
+          <div class="col-md-6 col-lg-3"  data-aos="fade-up">
+            <h6 class="headLink">تابعنا على</h6>
+            <ul class="linksList Social">
+              <li>
+                <a href="javascript:;">
+                  <img src="../assets/images/home/insta.jpg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="../assets/images/home/fb.jpg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="../assets/images/home/twet.jpg" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- end col -->
+          <div class="col-md-6 col-lg-3"  data-aos="fade-right">
+            <h6 class="headLink">تواصل معنا</h6>
+            <ul class="linksList">
+              <li>
+                <a href="javascript:;" class="withLogo">
+                  <img src="../assets/images/home/location2.png" alt="" />
+                  <span>شركة إمداد الخبرات المحدودة ,ا لرياض - حي النخيل</span>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="withLogo">
+                  <img src="../assets/images/home/call2.png" alt="" />
+                  <span>966118169119+</span>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="withLogo">
+                  <img src="../assets/images/home/sms2.png" alt="" />
+                  <span>Career@ek.com.sa</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- end col -->
+        </div>
+        <hr />
+        <div class="row" >
+          <div class="col-md-6 text-right">
+            <p class="font16">جميع الحقوق محفوظة © 2022</p>
+          </div>
+          <div class="col-md-6 text-left">
+            <div class="boxMapPolc">
+              <a href="under-cost.html" class="font16">سياسة الخصوصية</a> |
+              <a href="under-cost.html" class="font16">الشروط و الاحكام</a> |
+              <a href="under-cost.html" class="font16">خريطة الموقع</a>
             </div>
           </div>
         </div>
-      </footer>
+      </div>
+    </footer>
+
+    
 
     <script src="../assets/js/jQueryV3.5.js"></script>
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/js/swiper-bundle.min.js"></script>
     <script src="../assets/js/jquery.counterup.min.js"></script>
+    <script src="../assets/js/aos.js"></script>
     <script src="../assets/js/custom.js"></script>
     <script>
+       AOS.init();
       jQuery(function ($) {
         "use strict";
         var counterUp = window.counterUp["default"]; // import counterUp from "counterup2"
