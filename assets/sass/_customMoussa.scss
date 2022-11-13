@@ -925,6 +925,40 @@ html{
         font-size: 16px;
       }
     }
+    .navbar-light{
+      .navbar-collapse{
+        background-color: $main-color !important;
+        position: absolute;
+        width: 100%;
+        #{$start-direction}: 0;
+        top: 75px;
+        .navbar-nav{
+          padding: 0;
+          align-items: center;
+        }
+        li.nav-item {
+          width: 100%;
+          text-align: center;
+        }
+        .nav-link{
+          color: #fff !important;
+          padding-#{$start-direction}: 20px !important;
+          margin: 0 !important;
+          &.active{
+            border: 0 !important;
+            background-color: #310544;
+          }
+        }
+      }
+      .navbar-toggler{
+        background-color: $main-color !important;
+        box-shadow: none !important;
+        min-width: 65px;
+        .navbar-toggler-icon{
+          background-image: url(../images/burger.svg) !important;
+        }
+      }
+    }
  
   }
 
@@ -975,11 +1009,18 @@ html{
     .font22 {
       font-size: 1.125rem;
       line-height: 25px;
-    
+    }
       .inner-serv-card p {
         font-size: 1.125rem;
         line-height: 25px;
-    }}  
+    }
+    .inner-serv-card{
+      background-size: 15%;
+      p{
+        text-align: justify;
+      }
+    }
+      
   }
 
   @media(max-width:574.98px){
@@ -1006,5 +1047,8 @@ html{
     }
     .homeClass .navbar .container{
       height: 85px;
+    }
+    .navbar-light .navbar-collapse li.nav-item{
+      text-align: #{$start-direction};
     }
   }

@@ -21,6 +21,7 @@ $(document).ready(function () {
     let swiper2 = new Swiper(".partnersSwiper", {
         slidesPerView: 4,
         spaceBetween: 10,
+        slidesPerGroup: 4,
         // Responsive breakpoints
         breakpoints: {
           // when window width is >= 320px

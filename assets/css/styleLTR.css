@@ -2295,6 +2295,41 @@ img {
   .inner-contact.contactUs .contact-data .whiteBox input::placeholder, .inner-contact.contactUs .contact-data .whiteBox textarea::placeholder {
     font-size: 16px;
   }
+  .navbar-light .navbar-collapse {
+    background-color: #80057C !important;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 75px;
+  }
+  .navbar-light .navbar-collapse .navbar-nav {
+    padding: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar-light .navbar-collapse li.nav-item {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-light .navbar-collapse .nav-link {
+    color: #fff !important;
+    padding-left: 20px !important;
+    margin: 0 !important;
+  }
+  .navbar-light .navbar-collapse .nav-link.active {
+    border: 0 !important;
+    background-color: #310544;
+  }
+  .navbar-light .navbar-toggler {
+    background-color: #80057C !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    min-width: 65px;
+  }
+  .navbar-light .navbar-toggler .navbar-toggler-icon {
+    background-image: url(../images/burger.svg) !important;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -2343,9 +2378,15 @@ img {
     font-size: 1.125rem;
     line-height: 25px;
   }
-  .font22 .inner-serv-card p {
+  .inner-serv-card p {
     font-size: 1.125rem;
     line-height: 25px;
+  }
+  .inner-serv-card {
+    background-size: 15%;
+  }
+  .inner-serv-card p {
+    text-align: justify;
   }
 }
 
@@ -2373,6 +2414,9 @@ img {
   }
   .homeClass .navbar .container {
     height: 85px;
+  }
+  .navbar-light .navbar-collapse li.nav-item {
+    text-align: left;
   }
 }
 
