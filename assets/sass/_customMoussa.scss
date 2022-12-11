@@ -92,6 +92,9 @@
     font-family: 'DIMedium';
     color: $dark-blue2;
     margin-bottom: 24px;
+    &.inner{
+      font-size: 2.5rem;
+    }
   }
 
   .about-main{
@@ -782,6 +785,238 @@ html{
     max-width: 100%;
   }
 
+
+
+  // news
+
+  .sort-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    .boxSearchEvent{
+      width: 247px;
+      height: 46px;
+      position: relative;
+      margin-#{$end-direction}: 24px;
+      img{
+        position: absolute;
+        width: 19px;
+        height: 17px;
+        top: 14px;
+        left: 12px;
+      }
+      input{
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
+        box-shadow: none;
+        border: 2px solid #DCE4EC;
+        padding: 9px 0 7px;
+        padding-right: 12px;
+        padding-left: 30px;
+        color: $gray-color;
+        font-size: 1rem;
+        transition: 300ms;
+        &::placeholder{
+          color: $gray-color;
+          font-size: 1rem;
+        }
+        &:focus{
+          border-color: $main-color;
+        }
+      }
+    }
+    .search{
+      background-color: $main-color;
+      color: #fff;
+      font-size: 1rem;
+      width: 87px;
+      height: 46px;
+      border-radius: 8px;
+      margin-#{$end-direction}: 24px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .inputDateStyle{
+      position: relative;
+      width: 235px;
+      height: 46px;
+      margin-#{$end-direction}: 24px;
+      input{
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
+        border: 2px solid #DCE4EC;
+        color: $gray-color;
+        font-size: 1rem;
+        padding: 9px 12px;
+        text-align: #{$start-direction};
+        &::-webkit-calendar-picker-indicator {
+          color: rgba(0, 0, 0, 0);
+          opacity: 1;
+          display: block;
+          background-image: url(../images/News/calendar.svg) ;
+          background-repeat: no-repeat;
+          // background-position: 12px 14px;
+          width: 18px;
+          height: 20px;
+          position: absolute;
+          top: 12px;
+          #{$end-direction}:12px;
+          
+        }
+      }
+    }
+    .selectBox{
+      label{
+        font-size: 1rem;
+        font-family: 'DIMedium';
+        color: $titleColor;
+        margin-#{$end-direction}:12px ;
+      }
+      select{
+        width: 99px;
+        height: 46px;
+        background-image: url(../images/News/arrow-ios-downward.svg);
+        background-repeat: no-repeat;
+        background-position: 6px center;
+        appearance: none;
+        border-radius: 4px;
+        border: 2px solid #DCE4EC;
+        color: $gray-color;
+        font-size: 1rem;
+        padding: 9px 12px;
+
+      }
+    }
+  }
+.news-list{
+  margin-top: 50px;
+}
+  .news-list-item{
+    padding-bottom: 38px;
+    margin-bottom: 38px;
+    border-bottom: 1px solid #DCE4EC;
+    .img-box{
+      width: 100%;
+      height: 390px;
+      overflow: hidden;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: 500ms;
+      }
+    }
+    .content-box{
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      .date{
+        display: flex;
+        flex-direction: row;
+        margin-top: 8px;
+        margin-bottom: 24px;
+        img{
+          margin-#{$end-direction}: 10px;
+        }
+        span{
+          font-size: 1rem;
+          font-family: 'DIMedium';
+          color: $p-color;
+        }
+      }
+      h4{
+        font-size: 1.75rem;
+        line-height: 42px;
+        font-family: "DIMedium";
+        color: $titleColor;
+        margin-bottom: 24px;
+        transition: 500ms;
+
+      }
+      p{
+        font-size: 1.375rem;
+        line-height: 37px;
+        font-family: "DIRegular";
+        color: $p-color;
+        margin-bottom: 0;
+        max-height: calc(37px * 4);
+        overflow: hidden;
+      }
+      .news-more{
+        background-color:$main-color ;
+        color: #fff;
+        border-radius:8px ;
+        width: 114px;
+        height: 53px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: auto;
+        margin-bottom: 8px;
+      }
+    }
+    &:hover{
+      .img-box{
+        img{
+          transform: scale(1.1);
+        }
+      }
+      .content-box{
+        h4{
+          color: $main-color;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+.news-inner{
+  margin-bottom: 100px;
+  .img-box{
+    max-width: 1364px;
+    height: 600px;
+    margin: 50px auto;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .content-box{
+    .date{
+      display: flex;
+      flex-direction: row;
+      margin-top: 8px;
+      margin-bottom: 24px;
+      img{
+        margin-#{$end-direction}: 10px;
+      }
+      span{
+        font-size: 1rem;
+        font-family: 'DIMedium';
+        color: $p-color;
+      }
+    }
+    p{
+      font-size: 1.375rem;
+      line-height: 37px;
+      font-family: "DIRegular";
+      color: $p-color;
+      margin-bottom: 48px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
   /**********************************************
             meeeeeeeeeeeeeeeeeedia
   ************************************************/
@@ -980,7 +1215,7 @@ html{
       font-size: 1.5rem;
     }
     h2.main-h2 {
-      font-size: 2rem;
+      font-size: 2rem !important;
     }
     .inner-top-section .content-box p{
       font-size: 1.25rem;

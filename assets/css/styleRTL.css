@@ -1333,6 +1333,10 @@ h2.main-h2 {
   margin-bottom: 24px;
 }
 
+h2.main-h2.inner {
+  font-size: 2.5rem;
+}
+
 .about-main {
   margin-bottom: 185px;
 }
@@ -2132,6 +2136,302 @@ img {
   max-width: 100%;
 }
 
+.sort-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.sort-sec .boxSearchEvent {
+  width: 247px;
+  height: 46px;
+  position: relative;
+  margin-left: 24px;
+}
+
+.sort-sec .boxSearchEvent img {
+  position: absolute;
+  width: 19px;
+  height: 17px;
+  top: 14px;
+  left: 12px;
+}
+
+.sort-sec .boxSearchEvent input {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 2px solid #DCE4EC;
+  padding: 9px 0 7px;
+  padding-right: 12px;
+  padding-left: 30px;
+  color: #7d7d7d;
+  font-size: 1rem;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.sort-sec .boxSearchEvent input::-webkit-input-placeholder {
+  color: #7d7d7d;
+  font-size: 1rem;
+}
+
+.sort-sec .boxSearchEvent input:-ms-input-placeholder {
+  color: #7d7d7d;
+  font-size: 1rem;
+}
+
+.sort-sec .boxSearchEvent input::-ms-input-placeholder {
+  color: #7d7d7d;
+  font-size: 1rem;
+}
+
+.sort-sec .boxSearchEvent input::placeholder {
+  color: #7d7d7d;
+  font-size: 1rem;
+}
+
+.sort-sec .boxSearchEvent input:focus {
+  border-color: #80057C;
+}
+
+.sort-sec .search {
+  background-color: #80057C;
+  color: #fff;
+  font-size: 1rem;
+  width: 87px;
+  height: 46px;
+  border-radius: 8px;
+  margin-left: 24px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sort-sec .inputDateStyle {
+  position: relative;
+  width: 235px;
+  height: 46px;
+  margin-left: 24px;
+}
+
+.sort-sec .inputDateStyle input {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  border: 2px solid #DCE4EC;
+  color: #7d7d7d;
+  font-size: 1rem;
+  padding: 9px 12px;
+  text-align: right;
+}
+
+.sort-sec .inputDateStyle input::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background-image: url(../images/News/calendar.svg);
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 20px;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.sort-sec .selectBox label {
+  font-size: 1rem;
+  font-family: 'DIMedium';
+  color: #080031;
+  margin-left: 12px;
+}
+
+.sort-sec .selectBox select {
+  width: 99px;
+  height: 46px;
+  background-image: url(../images/News/arrow-ios-downward.svg);
+  background-repeat: no-repeat;
+  background-position: 6px center;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 4px;
+  border: 2px solid #DCE4EC;
+  color: #7d7d7d;
+  font-size: 1rem;
+  padding: 9px 12px;
+}
+
+.news-list {
+  margin-top: 50px;
+}
+
+.news-list-item {
+  padding-bottom: 38px;
+  margin-bottom: 38px;
+  border-bottom: 1px solid #DCE4EC;
+}
+
+.news-list-item .img-box {
+  width: 100%;
+  height: 390px;
+  overflow: hidden;
+}
+
+.news-list-item .img-box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.news-list-item .content-box {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.news-list-item .content-box .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.news-list-item .content-box .date img {
+  margin-left: 10px;
+}
+
+.news-list-item .content-box .date span {
+  font-size: 1rem;
+  font-family: 'DIMedium';
+  color: #2D2651;
+}
+
+.news-list-item .content-box h4 {
+  font-size: 1.75rem;
+  line-height: 42px;
+  font-family: "DIMedium";
+  color: #080031;
+  margin-bottom: 24px;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.news-list-item .content-box p {
+  font-size: 1.375rem;
+  line-height: 37px;
+  font-family: "DIRegular";
+  color: #2D2651;
+  margin-bottom: 0;
+  max-height: calc(37px * 4);
+  overflow: hidden;
+}
+
+.news-list-item .content-box .news-more {
+  background-color: #80057C;
+  color: #fff;
+  border-radius: 8px;
+  width: 114px;
+  height: 53px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: auto;
+  margin-bottom: 8px;
+}
+
+.news-list-item:hover .img-box img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.news-list-item:hover .content-box h4 {
+  color: #80057C;
+  text-decoration: underline;
+}
+
+.news-inner {
+  margin-bottom: 100px;
+}
+
+.news-inner .img-box {
+  max-width: 1364px;
+  height: 600px;
+  margin: 50px auto;
+}
+
+.news-inner .img-box img {
+  width: 100%;
+  height: 100%;
+}
+
+.news-inner .content-box .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.news-inner .content-box .date img {
+  margin-left: 10px;
+}
+
+.news-inner .content-box .date span {
+  font-size: 1rem;
+  font-family: 'DIMedium';
+  color: #2D2651;
+}
+
+.news-inner .content-box p {
+  font-size: 1.375rem;
+  line-height: 37px;
+  font-family: "DIRegular";
+  color: #2D2651;
+  margin-bottom: 48px;
+}
+
 /**********************************************
             meeeeeeeeeeeeeeeeeedia
   ************************************************/
@@ -2350,7 +2650,7 @@ img {
     font-size: 1.5rem;
   }
   h2.main-h2 {
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
   .inner-top-section .content-box p {
     font-size: 1.25rem;
