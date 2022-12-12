@@ -191,6 +191,7 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
 
 .redMore img {
   margin-left: 5px;
+
 }
 
 .fexCenter {
@@ -263,7 +264,7 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 
 .titleBorder.BTop::after {
-  left: calc(50% + 20px);
+  left: calc(50% + 0px);
   top: -20px;
   -webkit-transform: rotate(90deg) translateY(-50%);
           transform: rotate(90deg) translateY(-50%);
@@ -373,11 +374,13 @@ a.mainBtn {
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-transform: scaleX(-1);
+  transform:scaleX(-1);
 }
 
 .swiperHomeControl .swiper-button-prev::after {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  -webkit-transform: rotate(180deg) scaleX(-1);
+          transform: rotate(180deg) scaleX(-1);
 }
 
 .swiperHomeControl .swiper-pagination {
@@ -492,6 +495,7 @@ a.mainBtn {
 .homeHeader .homeSwiper .swiperHomeControl .swiper-button-prev::after,
 .homeHeader .homeSwiper .swiperHomeControl .swiper-button-next::after {
   background: transparent url(../images/shared/arrow-square-left.svg);
+  
 }
 
 .homeHeader .homeSwiper .swiperHomeControl .swiper-pagination-bullet {
@@ -876,7 +880,7 @@ a.mainBtn {
   transition: all 0.5s linear;
   background-color: #80057c;
   bottom: -3px;
-  right: 50%;
+  left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
@@ -2131,7 +2135,22 @@ html {
 img {
   max-width: 100%;
 }
-
+.sharing-tools .content-box img ,
+.inner-serv-card .inner-cards-one .inner-card::before,
+.inner-serv-card .inner-cards-one .inner-card a img,
+.goals .goal-card .number::before,
+.Values .values-card::after,
+.msg-vision .vision .img-box, .msg-vision .msg .img-box,
+.breadcrumbSec .breadcrumb li:not(:last-of-type)::before,
+.showAllServices img,
+.redMore img {
+  -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.showAllServices:hover img {
+  -webkit-transform: scaleX(-1)  translateX(-38px);
+  transform: scaleX(-1) translateX(-38px);
+}
 /**********************************************
             meeeeeeeeeeeeeeeeeedia
   ************************************************/
@@ -2182,6 +2201,9 @@ img {
 }
 
 @media (max-width: 1199.98px) {
+  .under-const .content-box {
+    padding: 0 20px;
+  }
   .about-main .row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -2333,6 +2355,9 @@ img {
 }
 
 @media (max-width: 767.98px) {
+  .menuCustom .container {
+    padding: 0 20px;
+  }
   .msg-vision {
     background-image: none;
     padding: 20px 30px;
