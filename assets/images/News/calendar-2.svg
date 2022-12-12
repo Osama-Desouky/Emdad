@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.5" height="21.5" viewBox="0 0 19.5 21.5">
+  <g id="calendar-2" transform="translate(-2.25 -1.25)">
+    <path id="Path_128612" data-name="Path 128612" d="M8,2V5" fill="none" stroke="#80057c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path_128613" data-name="Path 128613" d="M16,2V5" fill="none" stroke="#80057c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path_128614" data-name="Path 128614" d="M3.5,9.09h17" fill="none" stroke="#80057c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path_128615" data-name="Path 128615" d="M21,8.5V17c0,3-1.5,5-5,5H8c-3.5,0-5-2-5-5V8.5c0-3,1.5-5,5-5h8C19.5,3.5,21,5.5,21,8.5Z" fill="none" stroke="#80057c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path_128616" data-name="Path 128616" d="M15.695,13.7H15.7" fill="none" stroke="#80057c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_128617" data-name="Path 128617" d="M15.695,16.7H15.7" fill="none" stroke="#80057c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_128618" data-name="Path 128618" d="M12,13.7H12" fill="none" stroke="#80057c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_128619" data-name="Path 128619" d="M12,16.7H12" fill="none" stroke="#80057c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_128620" data-name="Path 128620" d="M8.294,13.7H8.3" fill="none" stroke="#80057c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_128621" data-name="Path 128621" d="M8.294,16.7H8.3" fill="none" stroke="#80057c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

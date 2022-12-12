@@ -575,45 +575,88 @@ a.mainBtn {
 .emdadNum {
   padding-bottom: 100px;
   .col-md-12.text-center {
-    padding-bottom: 60px;
+    padding-bottom: 75px;
   }
   .countNumBox {
     text-align: center;
-    padding: 60px 34px;
+    padding: 0px 34px;
     transition: background-color 0.25s linear;
+    position: relative;
+    height: 100%;
     .counter {
       font-size: 60px;
       font-family: "DIBold";
-      border-bottom: 1px solid #c8c8c8;
+      // border-bottom: 1px solid #c8c8c8;
       line-height: 88px;
-      padding-bottom: 40px;
-      margin-bottom: 40px;
+      // padding-bottom: 40px;
+      margin-bottom: 0;
+      margin-top: -15px;
       border-radius: 8px;
-      color: #80057c;
+      color: $titleColor;
       position: relative;
-      &::after {
-        @extend .positionAbsolute;
-        height: 5px;
-        width: 40%;
-        transition: all 0.5s linear;
-        background-color: #80057c;
-        bottom: -3px;
-        #{$end-direction}: 50%;
-        transform: translateX(-50%);
-      }
+      // &::after {
+      //   @extend .positionAbsolute;
+      //   height: 5px;
+      //   width: 40%;
+      //   transition: all 0.5s linear;
+      //   background-color: #80057c;
+      //   bottom: -3px;
+      //   #{$end-direction}: 50%;
+      //   transform: translateX(-50%);
+      // }
     }
-    &:hover {
-      background-color: #ebf2fa;
-      .counter {
-        &::after {
-          width: 60%;
-        }
-      }
-    }
+    // &:hover {
+      // background-color: #ebf2fa;
+      // .counter {
+      //   &::after {
+      //     width: 60%;
+      //   }
+      // }
+    // }
     .p22 {
-      color: #404040;
+      color: $main-color;
       margin-bottom: 17px;
       font-family: "DIMedium";
+      margin-bottom: 5px;
+    }
+    span{
+      font-size: 22px;
+      font-family: "DIMedium";
+      color: $main-color;
+      display: block;
+      text-align: center;
+    }
+    .data-new{
+      p{
+        color: $titleColor;
+        margin-bottom: 17px;
+        font-family: "DIMedium";
+        margin-bottom: 0px;
+      }
+      p.violet{
+        color: $main-color;
+      }
+    }
+    .img-box{
+      height: 145px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      margin-bottom: 35px;
+    }
+    &::before{
+      content: "";
+      position: absolute;
+      height: 95%;
+      width: 4px;
+      bottom: 0;
+      #{$end-direction}:-14px;
+      border: 2px dashed #BDBDBD ;
+    }
+    &.no-border{
+      &::before{
+        display: none;
+      }
     }
   }
 }
@@ -629,6 +672,7 @@ a.mainBtn {
       border: 2px solid #FAFAFF;
       border-radius: 8px;
       padding: 24px 49px;
+      text-align: center;
       img {
         max-height: 150px;
       }
