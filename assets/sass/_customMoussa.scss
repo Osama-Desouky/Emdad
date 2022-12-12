@@ -805,7 +805,7 @@ html{
         width: 19px;
         height: 17px;
         top: 14px;
-        left: 12px;
+        #{$end-direction}: 12px;
       }
       input{
         width: 100%;
@@ -814,8 +814,8 @@ html{
         box-shadow: none;
         border: 2px solid #DCE4EC;
         padding: 9px 0 7px;
-        padding-right: 12px;
-        padding-left: 30px;
+        padding-#{$start-direction}: 12px;
+        padding-#{$end-direction}: 30px;
         color: $gray-color;
         font-size: 1rem;
         transition: 300ms;
@@ -1695,4 +1695,72 @@ html{
     .events-list .event-card .content-area .top-area div.location{
       margin-#{$start-direction}:0 ;
     }
+  }
+
+  html[lang="en"] {
+    .pagination-section .pagination a.arr{
+      transform: scale(-1);
+    }
+    .sort-sec .selectBox select{
+      background-position: 70px center;
+    }
+    .swiperHomeControl .swiper-button-prev::after,	
+    .swiperHomeControl .swiper-button-next::after {	
+      background: transparent url(../images/shared/arrow-square-left-mainColor.svg);	
+      content: "";	
+      width: 30px;	
+      height: 30px;	
+      background-position: 100%;	
+      background-repeat: no-repeat;	
+      background-size: cover;	
+      -webkit-transform: scaleX(-1);	
+      transform:scaleX(-1);	
+    }	
+    .swiperHomeControl .swiper-button-prev::after {	
+      -webkit-transform: rotate(180deg) scaleX(-1);	
+              transform: rotate(180deg) scaleX(-1);	
+    }	
+    
+    .emdadNum .countNumBox .counter::after {	
+      height: 5px;	
+      width: 40%;	
+      -webkit-transition: all 0.5s linear;	
+      transition: all 0.5s linear;	
+      background-color: #80057c;	
+      bottom: -3px;	
+      left: 50%;	
+      -webkit-transform: translateX(-50%);	
+              transform: translateX(-50%);	
+    }
+    
+    
+      .sharing-tools .content-box img ,	
+    .inner-serv-card .inner-cards-one .inner-card::before,	
+    .inner-serv-card .inner-cards-one .inner-card a img,	
+    .goals .goal-card .number::before,	
+    .Values .values-card::after,	
+    .msg-vision .vision .img-box, .msg-vision .msg .img-box,	
+    .breadcrumbSec .breadcrumb li:not(:last-of-type)::before,	
+    .showAllServices img,	
+    .redMore img {	
+      -webkit-transform: scaleX(-1);	
+        transform: scaleX(-1);	
+    }	
+    .showAllServices:hover img {	
+      -webkit-transform: scaleX(-1)  translateX(-38px);	
+      transform: scaleX(-1) translateX(-38px);	
+    }
+    
+      @media (max-width: 1199.98px) {	
+      .under-const .content-box {	
+        padding: 0 20px;	
+      }
+    }
+    
+      @media (max-width: 767.98px) {	
+      .menuCustom .container {	
+        padding: 0 20px;	
+      }
+    }
+    
   }

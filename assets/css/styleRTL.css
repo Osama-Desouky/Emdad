@@ -3238,6 +3238,75 @@ img {
   }
 }
 
+html[lang="en"] .pagination-section .pagination a.arr {
+  -webkit-transform: scale(-1);
+          transform: scale(-1);
+}
+
+html[lang="en"] .sort-sec .selectBox select {
+  background-position: 70px center;
+}
+
+html[lang="en"] .swiperHomeControl .swiper-button-prev::after,
+html[lang="en"] .swiperHomeControl .swiper-button-next::after {
+  background: transparent url(../images/shared/arrow-square-left-mainColor.svg);
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+html[lang="en"] .swiperHomeControl .swiper-button-prev::after {
+  -webkit-transform: rotate(180deg) scaleX(-1);
+  transform: rotate(180deg) scaleX(-1);
+}
+
+html[lang="en"] .emdadNum .countNumBox .counter::after {
+  height: 5px;
+  width: 40%;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  background-color: #80057c;
+  bottom: -3px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+html[lang="en"] .sharing-tools .content-box img,
+html[lang="en"] .inner-serv-card .inner-cards-one .inner-card::before,
+html[lang="en"] .inner-serv-card .inner-cards-one .inner-card a img,
+html[lang="en"] .goals .goal-card .number::before,
+html[lang="en"] .Values .values-card::after,
+html[lang="en"] .msg-vision .vision .img-box, html[lang="en"] .msg-vision .msg .img-box,
+html[lang="en"] .breadcrumbSec .breadcrumb li:not(:last-of-type)::before,
+html[lang="en"] .showAllServices img,
+html[lang="en"] .redMore img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+html[lang="en"] .showAllServices:hover img {
+  -webkit-transform: scaleX(-1) translateX(-38px);
+  transform: scaleX(-1) translateX(-38px);
+}
+
+@media (max-width: 1199.98px) {
+  html[lang="en"] .under-const .content-box {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  html[lang="en"] .menuCustom .container {
+    padding: 0 20px;
+  }
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav {
     margin: 0 auto;

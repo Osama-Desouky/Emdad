@@ -191,7 +191,6 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
 
 .redMore img {
   margin-left: 5px;
-
 }
 
 .fexCenter {
@@ -264,7 +263,7 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 
 .titleBorder.BTop::after {
-  left: calc(50% + 0px);
+  left: calc(50% + 20px);
   top: -20px;
   -webkit-transform: rotate(90deg) translateY(-50%);
           transform: rotate(90deg) translateY(-50%);
@@ -374,13 +373,11 @@ a.mainBtn {
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-transform: scaleX(-1);
-  transform:scaleX(-1);
 }
 
 .swiperHomeControl .swiper-button-prev::after {
-  -webkit-transform: rotate(180deg) scaleX(-1);
-          transform: rotate(180deg) scaleX(-1);
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .swiperHomeControl .swiper-pagination {
@@ -495,7 +492,6 @@ a.mainBtn {
 .homeHeader .homeSwiper .swiperHomeControl .swiper-button-prev::after,
 .homeHeader .homeSwiper .swiperHomeControl .swiper-button-next::after {
   background: transparent url(../images/shared/arrow-square-left.svg);
-  
 }
 
 .homeHeader .homeSwiper .swiperHomeControl .swiper-pagination-bullet {
@@ -874,28 +870,11 @@ a.mainBtn {
   position: relative;
 }
 
-<<<<<<< HEAD
-.emdadNum .countNumBox .counter::after {
-  height: 5px;
-  width: 40%;
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
-  background-color: #80057c;
-  bottom: -3px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-}
-
-.emdadNum .countNumBox:hover {
-  background-color: #ebf2fa;
-=======
 .emdadNum .countNumBox .p22 {
   color: #80057C;
   margin-bottom: 17px;
   font-family: "DIMedium";
   margin-bottom: 5px;
->>>>>>> 83dac72effc559b3ac790b655de90a418f08533f
 }
 
 .emdadNum .countNumBox span {
@@ -2187,39 +2166,6 @@ html {
 img {
   max-width: 100%;
 }
-<<<<<<< HEAD
-.sharing-tools .content-box img ,
-.inner-serv-card .inner-cards-one .inner-card::before,
-.inner-serv-card .inner-cards-one .inner-card a img,
-.goals .goal-card .number::before,
-.Values .values-card::after,
-.msg-vision .vision .img-box, .msg-vision .msg .img-box,
-.breadcrumbSec .breadcrumb li:not(:last-of-type)::before,
-.showAllServices img,
-.redMore img {
-  -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-}
-.showAllServices:hover img {
-  -webkit-transform: scaleX(-1)  translateX(-38px);
-  transform: scaleX(-1) translateX(-38px);
-}
-/**********************************************
-            meeeeeeeeeeeeeeeeeedia
-  ************************************************/
-@media (max-width: 1650px) {
-  .inner-serv-card .inner-cards-two .inner-card {
-    max-width: 500px;
-    height: 400px;
-  }
-  .Values .values-card p {
-    font-size: 1.175rem;
-    line-height: 30px;
-  }
-  .msg-vision .vision, .msg-vision .msg {
-    max-width: 460px;
-  }
-=======
 
 .sort-sec {
   display: -webkit-box;
@@ -2235,7 +2181,6 @@ img {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
->>>>>>> 83dac72effc559b3ac790b655de90a418f08533f
 }
 
 .sort-sec .boxSearchEvent {
@@ -2250,85 +2195,9 @@ img {
   width: 19px;
   height: 17px;
   top: 14px;
-  left: 12px;
+  right: 12px;
 }
 
-<<<<<<< HEAD
-@media (max-width: 1199.98px) {
-  .under-const .content-box {
-    padding: 0 20px;
-  }
-  .about-main .row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-  }
-  .about-main .img-box {
-    max-width: 650px;
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-  .msg-vision {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .msg-vision .vision, .msg-vision .msg {
-    margin: 0;
-    margin-bottom: 20px;
-    max-width: inherit;
-    margin-left: 180px;
-  }
-  .goals .goal-card:hover .content-box::before {
-    width: 135%;
-  }
-  .inner-top-section .content-box {
-    max-width: inherit;
-    padding-top: 30px;
-  }
-  .inner-top-section .img-box {
-    text-align: center;
-    margin-top: 30px;
-  }
-  .inner-serv-card .inner-cards-one {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .inner-serv-card .inner-cards-one .inner-card {
-    width: calc(100% / 4 - 7px);
-    margin-left: 7px;
-    margin-bottom: 30px;
-  }
-  .inner-serv-card .inner-cards-two {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .inner-serv-card .inner-cards-two .inner-card {
-    max-width: inherit;
-    margin-bottom: 30px;
-  }
-  .inner-contact.contactUs .contact-data .linksList li * {
-    font-size: 1.125rem;
-  }
-  .inner-contact.contactUs .contact-data .linksList li a img {
-    margin-right: 10px;
-    max-width: 25px;
-  }
-  .inner-contact.contactUs .contact-data .linksList {
-    margin-bottom: 24px;
-  }
-  .inner-contact.contactUs .contact-data .whiteBox input, .inner-contact.contactUs .contact-data .whiteBox textarea {
-    padding: 8px 20px;
-  }
-  .inner-contact.contactUs input {
-    height: 45px;
-  }
-=======
 .sort-sec .boxSearchEvent input {
   width: 100%;
   height: 100%;
@@ -2337,13 +2206,12 @@ img {
           box-shadow: none;
   border: 2px solid #DCE4EC;
   padding: 9px 0 7px;
-  padding-right: 12px;
-  padding-left: 30px;
+  padding-left: 12px;
+  padding-right: 30px;
   color: #7d7d7d;
   font-size: 1rem;
   -webkit-transition: 300ms;
   transition: 300ms;
->>>>>>> 83dac72effc559b3ac790b655de90a418f08533f
 }
 
 .sort-sec .boxSearchEvent input::-webkit-input-placeholder {
@@ -3265,9 +3133,6 @@ img {
 }
 
 @media (max-width: 767.98px) {
-  .menuCustom .container {
-    padding: 0 20px;
-  }
   .msg-vision {
     background-image: none;
     padding: 20px 30px;
@@ -3370,6 +3235,75 @@ img {
   }
   .events-list .event-card .content-area .top-area div.location {
     margin-left: 0;
+  }
+}
+
+html[lang="en"] .pagination-section .pagination a.arr {
+  -webkit-transform: scale(-1);
+          transform: scale(-1);
+}
+
+html[lang="en"] .sort-sec .selectBox select {
+  background-position: 70px center;
+}
+
+html[lang="en"] .swiperHomeControl .swiper-button-prev::after,
+html[lang="en"] .swiperHomeControl .swiper-button-next::after {
+  background: transparent url(../images/shared/arrow-square-left-mainColor.svg);
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+html[lang="en"] .swiperHomeControl .swiper-button-prev::after {
+  -webkit-transform: rotate(180deg) scaleX(-1);
+  transform: rotate(180deg) scaleX(-1);
+}
+
+html[lang="en"] .emdadNum .countNumBox .counter::after {
+  height: 5px;
+  width: 40%;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  background-color: #80057c;
+  bottom: -3px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+html[lang="en"] .sharing-tools .content-box img,
+html[lang="en"] .inner-serv-card .inner-cards-one .inner-card::before,
+html[lang="en"] .inner-serv-card .inner-cards-one .inner-card a img,
+html[lang="en"] .goals .goal-card .number::before,
+html[lang="en"] .Values .values-card::after,
+html[lang="en"] .msg-vision .vision .img-box, html[lang="en"] .msg-vision .msg .img-box,
+html[lang="en"] .breadcrumbSec .breadcrumb li:not(:last-of-type)::before,
+html[lang="en"] .showAllServices img,
+html[lang="en"] .redMore img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+html[lang="en"] .showAllServices:hover img {
+  -webkit-transform: scaleX(-1) translateX(-38px);
+  transform: scaleX(-1) translateX(-38px);
+}
+
+@media (max-width: 1199.98px) {
+  html[lang="en"] .under-const .content-box {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  html[lang="en"] .menuCustom .container {
+    padding: 0 20px;
   }
 }
 
