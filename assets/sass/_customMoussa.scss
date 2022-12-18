@@ -1298,7 +1298,13 @@ html{
   }
 }
 
-
+.menuCustom.homeClass .navbar-brand .vision-2030{
+    margin-#{$start-direction}: 18px;
+    padding-#{$start-direction}: 19px;
+    position: relative;
+    border-#{$start-direction}: 1px solid  rgba($color:  #EBF2FA, $alpha: 0.4);
+    display: inline-block !important;
+}
 
 
 
@@ -1671,8 +1677,15 @@ html{
     .Values .values-card{
       padding: 30px 15px 40px;
     }
+    .menuCustom .navbar-light .navbar-brand{
+      margin-#{$start-direction}: 0;
+    }
     .menuCustom .navbar-light .navbar-brand img {
-      max-width: 200px !important;
+      max-width: 90px !important;
+    }
+    .menuCustom.homeClass .navbar-brand .vision-2030{
+      margin-#{$start-direction}: 10px;
+      padding-#{$start-direction}: 10px;
     }
     .homeClass .navbar .container{
       height: 85px;

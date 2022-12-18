@@ -1129,6 +1129,10 @@ footer.footer a:hover {
   display: none;
 }
 
+.menuCustom:not(.homeClass) .navbar-brand .vision-2030 {
+  display: none;
+}
+
 .menuCustom .navbar-nav .nav-link {
   padding: 38px 0;
   font-size: 20px;
@@ -2815,6 +2819,14 @@ img {
   cursor: not-allowed;
 }
 
+.menuCustom.homeClass .navbar-brand .vision-2030 {
+  margin-right: 18px;
+  padding-right: 19px;
+  position: relative;
+  border-right: 1px solid rgba(235, 242, 250, 0.4);
+  display: inline-block !important;
+}
+
 /**********************************************
             meeeeeeeeeeeeeeeeeedia
   ************************************************/
@@ -3209,8 +3221,15 @@ img {
   .Values .values-card {
     padding: 30px 15px 40px;
   }
+  .menuCustom .navbar-light .navbar-brand {
+    margin-right: 0;
+  }
   .menuCustom .navbar-light .navbar-brand img {
-    max-width: 200px !important;
+    max-width: 90px !important;
+  }
+  .menuCustom.homeClass .navbar-brand .vision-2030 {
+    margin-right: 10px;
+    padding-right: 10px;
   }
   .homeClass .navbar .container {
     height: 85px;
