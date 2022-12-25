@@ -2827,6 +2827,327 @@ img {
   display: inline-block !important;
 }
 
+.success-stories-main {
+  background-image: url(../images/success/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 40px;
+  margin-top: 15px;
+  z-index: 2;
+}
+
+.success-stories-main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #EBF2FA;
+  opacity: .97;
+  z-index: -1;
+}
+
+.success-stories-main .inner-content-box {
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.success-stories-main .inner-content-box::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 100%;
+  left: -40px;
+  top: 0;
+  background-color: #80057C;
+}
+
+.success-stories-main .inner-content-box h2 {
+  font-size: 2.1875rem;
+  font-family: "DIBold";
+  color: #080031;
+  margin-bottom: 12px;
+}
+
+.success-stories-main .inner-content-box .p22 {
+  font-size: 1.375rem;
+  color: #2D2651;
+  margin-bottom: 0;
+}
+
+.success-stories-main .countNumBox::before {
+  border: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(33%, #080031), color-stop(0%, rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to bottom, #080031 33%, rgba(255, 255, 255, 0) 0%);
+  background-position: left;
+  background-size: 2px 18px;
+  background-repeat: repeat-y;
+  width: 2px;
+}
+
+.success-stories-main .countNumBox .img-box {
+  height: 90px;
+}
+
+.success-stories-main .countNumBox .img-box img {
+  max-height: 100%;
+}
+
+.success-stories-main .success-partners {
+  margin-top: 25px;
+}
+
+.success-stories-main .success-partners h3 {
+  font-size: 1.875rem;
+  font-family: "DIMedium";
+  color: #80057C;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.success-stories-main .success-partners h3::after {
+  content: "";
+  position: absolute;
+  width: 88%;
+  height: 2px;
+  right: 0;
+  top: 70%;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(30%, #080031), color-stop(0%, rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to right, #080031 30%, rgba(255, 255, 255, 0) 0%);
+  background-position: top;
+  background-size: 20px 2px;
+  background-repeat: repeat-x;
+}
+
+.success-stories-main .success-partners .list-partnerz {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 7px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.success-stories-main .success-partners .list-partnerz .success-partners-card {
+  position: relative;
+  background-color: #fff;
+  border-radius: 12px;
+  margin-right: 64px;
+}
+
+.success-stories-main .success-partners .list-partnerz .success-partners-card:last-child {
+  margin-right: 0;
+}
+
+.content-shaped.shape-one .card {
+  background-image: url(../images/success/bg2-1.svg), url(../images/success/bg2-2.svg);
+  background-position: left bottom, top right;
+}
+
+.content-shaped.shape-two .card {
+  background-image: url(../images/success/bg3-1.svg), url(../images/success/bg3-2.svg);
+  background-position: left bottom, top right;
+}
+
+.content-shaped .card {
+  padding-top: 40px;
+  padding-left: 115px;
+  padding-right: 115px;
+  padding-bottom: 120px;
+  background-color: #F0DAF0;
+  background-repeat: no-repeat;
+  border-radius: 0;
+  border: none;
+  position: relative;
+}
+
+.content-shaped .card .content-number .number {
+  color: #fff;
+  font-size: 60px;
+  font-family: "DIBold";
+  background-color: #80057C;
+  width: 88px;
+  height: 88px;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content-shaped .card .content-number .top-content h3 {
+  font-size: 2.1875rem;
+  font-family: "DIBold";
+  color: #080031;
+  line-height: 47px;
+  margin-bottom: 10px;
+}
+
+.content-shaped .card .content-number .top-content p {
+  font-size: 1.875rem;
+  font-family: "DIMedium";
+  color: #80057C;
+  line-height: 40px;
+  margin-bottom: 0;
+}
+
+.content-shaped .card .content-mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 10px;
+  margin-bottom: 95px;
+}
+
+.content-shaped .card .content-mid p {
+  font-size: 1.375rem;
+  color: #2D2651;
+  line-height: 32px;
+  position: relative;
+  padding: 15px 0;
+  padding-right: 105px;
+}
+
+.content-shaped .card .content-mid p::before {
+  content: "";
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(36%, #080031), color-stop(0%, rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to bottom, #080031 36%, rgba(255, 255, 255, 0) 0%);
+  background-position: left;
+  background-size: 2px 16px;
+  background-repeat: repeat-y;
+  width: 2px;
+  height: 100%;
+  right: 0;
+  top: 0px;
+}
+
+.content-shaped .card .content-mid .img-box {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 365px;
+          flex: 0 0 365px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 50px;
+  background-color: transparent;
+}
+
+.content-shaped .card .content-mid .img-box img {
+  mix-blend-mode: multiply;
+}
+
+.content-shaped .card .details-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+
+.content-shaped .card .details-card .icon-box {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 57px;
+          flex: 0 0 57px;
+  margin-right: 25px;
+}
+
+.content-shaped .card .details-card .line-box {
+  position: relative;
+  margin-right: 30px;
+}
+
+.content-shaped .card .details-card .line-box span {
+  width: 10px;
+  height: 100%;
+  position: absolute;
+  background-color: #80057C;
+  opacity: .4;
+}
+
+.content-shaped .card .details-card .content-box .num {
+  font-size: 60px;
+  font-family: "DIBold";
+  color: #080031;
+  line-height: 50px;
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  direction: ltr;
+}
+
+.content-shaped .card .details-card .content-box .num span {
+  font-size: 1.375rem;
+  font-family: "DIMedium";
+  margin-top: 10px;
+  margin-left: 10px;
+  line-height: 40px;
+}
+
+.content-shaped .card .details-card .content-box .job-title {
+  font-size: 1.375rem;
+  font-family: "DIMedium";
+  color: #80057C;
+  max-width: 180px;
+}
+
+.content-shaped .card .details-card .content-box .job-desc {
+  font-size: 1.375rem;
+  font-family: "DIMedium";
+  color: #080031;
+}
+
+.content-shaped .card .details-card.without-icon {
+  min-height: 167px;
+}
+
+.content-shaped .card .details-card.without-icon .content-box .job-title {
+  margin-bottom: 10px;
+}
+
+.content-shaped .card .details-card.without-icon .content-box .num {
+  direction: rtl;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
 /**********************************************
             meeeeeeeeeeeeeeeeeedia
   ************************************************/
@@ -2894,6 +3215,28 @@ img {
     width: 45px;
     height: 45px;
     padding: 12px;
+  }
+  .content-shaped .card .details-card .content-box .num {
+    font-size: 45px;
+    line-height: 40px;
+  }
+  .content-shaped .card .details-card .icon-box {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40px;
+            flex: 0 0 40px;
+  }
+  .content-shaped .card .content-mid .img-box {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 260px;
+            flex: 0 0 260px;
+  }
+  .emdadNum .success-stories-main .countNumBox .counter {
+    font-size: 45px;
+    line-height: 70px;
+    margin-top: -5px;
+  }
+  .success-stories-main .success-partners h3::after {
+    width: 85%;
   }
 }
 
@@ -2991,6 +3334,76 @@ img {
   }
   .events-list .event-card .img-box {
     height: 200px;
+  }
+  .content-shaped .card .content-number .number {
+    width: 60px;
+    height: 70px;
+    font-size: 40px;
+  }
+  .success-stories-main .inner-content-box h2,
+  .content-shaped .card .content-number .top-content h3 {
+    font-size: 1.875rem;
+  }
+  .content-shaped .card .content-number .top-content p {
+    font-size: 1.5625rem;
+    line-height: 30px;
+  }
+  .success-stories-main .inner-content-box .p22 {
+    font-size: 1.25rem;
+    line-height: 30px;
+  }
+  .content-shaped .card .content-mid p {
+    font-size: 1.25rem;
+    line-height: 30px;
+    padding-right: 55px;
+  }
+  .content-shaped .card {
+    padding-left: 80px;
+    padding-right: 70px;
+  }
+  .success-stories-main .success-partners h3::after {
+    width: 80%;
+  }
+  .success-stories-main .countNumBox .img-box {
+    height: 60px;
+    margin-bottom: 20px;
+  }
+  .success-stories-main .success-partners .list-partnerz {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .success-stories-main .success-partners .list-partnerz .success-partners-card {
+    margin-right: 0;
+    width: calc(100% / 4 - 35px);
+    margin-bottom: 15px;
+    height: 95px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .success-stories-main .success-partners .list-partnerz .success-partners-card img {
+    max-height: 100%;
+  }
+  .content-shaped .card .details-card .content-box .job-desc,
+  .content-shaped .card .details-card .content-box .job-title {
+    font-size: 1.125rem;
+  }
+  .content-shaped .card .details-card .content-box .num {
+    font-size: 40px;
+    line-height: 35px;
+  }
+  .content-shaped .card .details-card .content-box .num span {
+    line-height: 24px;
+    font-size: 1.125rem;
   }
 }
 
@@ -3142,6 +3555,64 @@ img {
   .events-list .event-card .content-area .top-area div.location {
     margin-left: 10px;
   }
+  .content-shaped .card .content-mid {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .content-shaped .card .content-mid p {
+    padding-right: 0;
+    padding-bottom: 35px;
+  }
+  .content-shaped .card .content-mid p::before {
+    width: 100%;
+    height: 2px;
+    right: 0;
+    top: 100%;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(30%, #080031), color-stop(0%, rgba(255, 255, 255, 0)));
+    background-image: linear-gradient(to right, #080031 30%, rgba(255, 255, 255, 0) 0%);
+    background-position: top;
+    background-size: 20px 2px;
+    background-repeat: repeat-x;
+  }
+  .content-shaped .card .content-mid .img-box {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    padding-left: 0;
+    padding-top: 30px;
+  }
+  .content-shaped .card .content-mid .img-box img {
+    max-height: 100%;
+  }
+  .content-shaped .card .details-card .content-box .num {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .content-shaped .card .details-card .content-box .num span {
+    margin-top: 5px;
+  }
+  .success-stories-main .countNumBox::before {
+    width: 100%;
+    height: 2px;
+    right: 0;
+    top: 100%;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(30%, #080031), color-stop(0%, rgba(255, 255, 255, 0)));
+    background-image: linear-gradient(to right, #080031 30%, rgba(255, 255, 255, 0) 0%);
+    background-position: top;
+    background-size: 20px 2px;
+    background-repeat: repeat-x;
+  }
+  .success-stories-main .success-partners h3::after {
+    width: 75%;
+  }
+  .success-stories-main .success-partners .list-partnerz .success-partners-card {
+    width: calc(100% / 4 - 20px);
+    height: 80px;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -3199,6 +3670,58 @@ img {
   }
   .inner-serv-card p {
     text-align: justify;
+  }
+  .success-stories-main .success-partners h3 {
+    font-size: 1.5rem;
+  }
+  .success-stories-main .success-partners h3::after {
+    width: 50%;
+  }
+  .success-stories-main .success-partners .list-partnerz {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .success-stories-main .success-partners .list-partnerz .success-partners-card {
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+  }
+  .content-shaped .card .content-number .number {
+    width: 40px;
+    height: 50px;
+    font-size: 30px;
+  }
+  .success-stories-main .inner-content-box h2,
+  .content-shaped .card .content-number .top-content h3 {
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+  .content-shaped .card .content-number .top-content p {
+    font-size: 1.25rem;
+    line-height: 26px;
+  }
+  .content-shaped .card .content-mid p {
+    font-size: 1.125rem;
+    line-height: 25px;
+    padding-top: 0;
+  }
+  .success-stories-main .inner-content-box .p22 {
+    font-size: 1.125rem;
+    line-height: 25px;
+  }
+  .success-stories-main {
+    padding: 40px 20px;
+  }
+  .success-stories-main .inner-content-box::before {
+    left: -20px;
+    width: 8px;
+  }
+  .emdadNum .success-stories-main .countNumBox span {
+    font-size: 18px;
+  }
+  .content-shaped .card {
+    padding-left: 55px;
+    padding-right: 30px;
   }
 }
 
@@ -3294,6 +3817,20 @@ html[lang="en"] .emdadNum .countNumBox .counter::after {
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
+}
+
+html[lang="en"] .content-shaped .card .details-card .content-box .num {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  direction: rtl;
+}
+
+html[lang="en"] .content-shaped .card .details-card.without-icon .content-box .num {
+  direction: ltr;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 html[lang="en"] .sharing-tools .content-box img,

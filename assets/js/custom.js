@@ -27,21 +27,25 @@ $(document).ready(function () {
           // when window width is >= 320px
           320: {
             slidesPerView: 1,
-            spaceBetween: 20
+            spaceBetween: 20,
+            slidesPerGroup: 1,
           },
           // when window width is >= 480px
           700: {
             slidesPerView: 2,
-            spaceBetween: 30
+            spaceBetween: 30,
+            slidesPerGroup: 2,
           },
           // when window width is >= 640px
           1000: {
             slidesPerView: 3,
-            spaceBetween: 40
+            spaceBetween: 40,
+            slidesPerGroup: 3,
           },
           1300: {
             slidesPerView: 4,
-            spaceBetween: 40
+            spaceBetween: 40,
+            slidesPerGroup: 4,
           }
         },
         pagination: {

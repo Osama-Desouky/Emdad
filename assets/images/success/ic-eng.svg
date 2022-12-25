@@ -1,0 +1,17 @@
+<svg id="ic-eng" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54.242" height="50.851" viewBox="0 0 54.242 50.851">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_15951" data-name="Rectangle 15951" width="54.242" height="50.851" fill="#80057c"/>
+    </clipPath>
+  </defs>
+  <g id="Group_129185" data-name="Group 129185" clip-path="url(#clip-path)">
+    <path id="Path_128661" data-name="Path 128661" d="M27.634,17.485a1.589,1.589,0,1,1-1.589,1.59,1.592,1.592,0,0,1,1.589-1.59M25.167,27.563,27.046,23.8a4.658,4.658,0,0,0,1.177,0L30.1,27.563l2.842-1.421L31.064,22.38a4.766,4.766,0,1,0-6.859,0l-1.881,3.761Z" transform="translate(7.431 4.763)" fill="#80057c"/>
+    <rect id="Rectangle_15946" data-name="Rectangle 15946" width="12.713" height="3.178" transform="translate(28.71 34.96)" fill="#80057c"/>
+    <rect id="Rectangle_15947" data-name="Rectangle 15947" width="12.818" height="3.178" transform="translate(12.713 22.247)" fill="#80057c"/>
+    <rect id="Rectangle_15948" data-name="Rectangle 15948" width="12.818" height="3.178" transform="translate(12.713 28.604)" fill="#80057c"/>
+    <rect id="Rectangle_15949" data-name="Rectangle 15949" width="12.818" height="3.178" transform="translate(12.713 34.96)" fill="#80057c"/>
+    <path id="Path_128662" data-name="Path 128662" d="M51.063,47.673H3.178V9.534H18.568l3.178-6.357H32.494l3.179,6.357h15.39ZM34.459,0H19.781L16.6,6.357H0V50.851H54.242V6.357H37.637Z" fill="#80057c"/>
+    <rect id="Rectangle_15950" data-name="Rectangle 15950" width="3.178" height="3.178" transform="translate(25.531 6.357)" fill="#80057c"/>
+    <path id="Path_128663" data-name="Path 128663" d="M7.947,12.716H43.119V38.142H7.947ZM4.769,41.32H46.3V9.537H4.769Z" transform="translate(1.588 3.175)" fill="#80057c"/>
+  </g>
+</svg>
