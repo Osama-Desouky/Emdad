@@ -2220,6 +2220,26 @@ html{
       direction: ltr;
       justify-content: flex-start;
     }
+
+    .content-shaped{
+
+      &.shape-one{
+        .card{
+          background-image: url(../images/success/bg2-1-en.svg ) , url(../images/success/bg2-2-en.svg );
+          background-position: #{$start-direction} bottom , top #{$end-direction};
+        }
+      }
+    
+      &.shape-two{
+        .card{
+          background-image: url(../images/success/bg3-1-en.svg ) , url(../images/success/bg3-2-en.svg );
+          background-position: #{$start-direction} bottom , top #{$end-direction};
+        }
+      }
+    }
+
+
+
       .sharing-tools .content-box img ,	
     .inner-serv-card .inner-cards-one .inner-card::before,	
     .inner-serv-card .inner-cards-one .inner-card a img,	

@@ -3833,6 +3833,16 @@ html[lang="en"] .content-shaped .card .details-card.without-icon .content-box .n
           justify-content: flex-start;
 }
 
+html[lang="en"] .content-shaped.shape-one .card {
+  background-image: url(../images/success/bg2-1-en.svg), url(../images/success/bg2-2-en.svg);
+  background-position: left bottom, top right;
+}
+
+html[lang="en"] .content-shaped.shape-two .card {
+  background-image: url(../images/success/bg3-1-en.svg), url(../images/success/bg3-2-en.svg);
+  background-position: left bottom, top right;
+}
+
 html[lang="en"] .sharing-tools .content-box img,
 html[lang="en"] .inner-serv-card .inner-cards-one .inner-card::before,
 html[lang="en"] .inner-serv-card .inner-cards-one .inner-card a img,
