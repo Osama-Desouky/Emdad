@@ -3066,6 +3066,7 @@ img {
 
 .content-shaped .card .content-mid .img-box img {
   mix-blend-mode: multiply;
+  border-radius: 8px;
 }
 
 .content-shaped .card .details-card {
