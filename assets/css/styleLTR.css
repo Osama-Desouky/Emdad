@@ -652,7 +652,7 @@ a.mainBtn {
 }
 
 .containerFlip .front .frontLogo img {
-  max-height: 110px;
+  height: 90px;
 }
 
 .containerFlip .front .font25 {
